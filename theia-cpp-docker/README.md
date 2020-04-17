@@ -4,7 +4,7 @@ A containerized Theia-based C/C++ demo IDE, including commonly used tools:
 - latest clangd Language Server (nightly build)
 - latest stand-alone clang-tidy static analyser (nightly build)
 - GDB 8.1 (from Ubuntu repo)
-- cmake 3.10.2 (from Ubuntu repo)
+- cmake 3.17.0
 
 The included Theia-based IDE application has the following notable features
 - [@theia/cpp] Language-server built-in clang-tidy static analyser integration. Will analyse files opened in the IDE's editors and report problems for configured rules. See [README](https://github.com/theia-ide/theia/tree/master/packages/cpp#using-the-clang-tidy-linter) for more details, including related preferences
